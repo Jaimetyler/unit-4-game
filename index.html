@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <div class = "container">
+        <div class = "row" id = "header">
+            <h1>Crystal Collector!</h1>
+        </div>
+        <div class = "row">
+            <div class = "col-sm-12" id = "directions">
+                <p class = directions-text>
+                    A random number will appear at the start of the game. 
+                    <br>
+                    <br>
+                    There are four crystals below. By clicking each crystal, you will add a specific amount of points to your total score.
+                    <br>
+                    <br>
+                    You win the game by matching your total score to the random number that appaers at the beginning of the game. If your score goes above the random number, you lose the game. 
+                    <br>
+                    <br>
+                    The value of each crystal  will be hidden until you click on it.
+                    <br>
+                    <br>
+                    The random number and value of each crystal will be random with each new game.  
+                </p> 
+                <div class = "row">
+                    <div class = "col-sm-4" >
+                        <div class = "card" id = "random-number">
+                            This there where the random number goes! I need some padding or something.
+                        </div>                       
+                    </div>
+                    <div class = "col-sm-4">
+                        <div class = "card"  id = "scorebox"> 
+                            <h2 class = "card-header">Results</h2> 
+                            <p id = "wins">Wins:</p>
+                            <p id = "losses">Losses:</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-sm-3">
+
+                    </div>
+                    <div class = "col-sm-3">
+
+                    </div>
+                    <div class = "col-sm-3">
+
+                    </div>
+                    <div class = "col-sm-3">
+                            
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-sm-4">
+                        <div class = "card">
+                            <h2 class = "card-header">User Score</h2>
+                            <p id = "user-score">Total:</p>                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    </div>
+</body>
