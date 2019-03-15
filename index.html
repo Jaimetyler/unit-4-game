@@ -10,6 +10,9 @@
     
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Changa|Srisakdi" rel="stylesheet">
+
 </head>
 <body>
     <div class = "container">
@@ -18,9 +21,10 @@
             <h1>Crystal Collector!</h1>
         </div>
         </div>
+        <div class = background-image>
         <div class = "row">
             <div class = "col-sm-12" id = "directions">
-                <p class = directions-text>
+                <p class = "directions-text" id = "directions">
                     A random number will appear at the start of the game. 
                     <br>
                     <br>
@@ -38,7 +42,7 @@
                 <div class = "row">
                     <div class = "col-sm-4" >
                         <div class = "card" id = "random-number">
-                            <h2 class = "card-header">Score to Match</h2>
+                            <h2 class = "card-header">Match This Number!</h2>
                                 <div class = "card-body">
                                 <p id = "numberToMatch"></p>
                                 </div>
@@ -47,35 +51,34 @@
                     </div>
                     <div class = "col-sm-4">
                         <div class = "card"  id = "scorebox"> 
-                            <h2 class = "card-header">Results</h2> 
+                            <h2 class = "card-header">Score Board</h2> 
                             <p id = "wins">Wins:</p>
                             <p id = "losses">Losses:</p>
                         </div>
                     </div>
                     <div class = "col-sm-4">
                             <div class = "card">
-                                <h2 class = "card-header">User Score</h2>
-                                <p id = "user-score">Total:</p>                               
+                                <h2 class = "card-header">Score</h2>
+                                <p id = "user-score">0</p>                               
                             </div>
                         </div>
                 </div>
                 <div class = "row">
                     <div class = "col-sm-3">
-                        <img class = "thumbnail" id = "crystal1" src = "assets/images/crystal1.jpg" style = "width: 200px; height: 200px">
+                        <img class = "thumbnail" id = "crystal1" src = "assets/images/gem-1-revised.png" style = "width: 200px; height: 200px">
                     </div>
                     <div class = "col-sm-3">
-                            <img class = "thumbnail" id = "crystal2" src = "assets/images/crystal1.jpg" style = "width: 200px; height: 200px">
+                            <img class = "thumbnail" id = "crystal2" src = "assets/images/gem-2-revised.png" style = "width: 200px; height: 200px">
                     </div>
                     <div class = "col-sm-3">
-                            <img class = "thumbnail" id = "crystal3" src = "assets/images/crystal1.jpg" style = "width: 200px; height: 200px">
+                            <img class = "thumbnail" id = "crystal3" src = "assets/images/gem-3-revised.png" style = "width: 200px; height: 200px">
                     </div>
                     <div class = "col-sm-3">
-                            <img class = "thumbnail" id = "crystal4" src = "assets/images/crystal1.jpg" style = "width: 200px; height: 200px">
+                            <img class = "thumbnail" id = "crystal4" src = "assets/images/gem-4-revised.png" style = "width: 200px; height: 200px">
                     </div>     
             
                     </div>
                 </div>
-                <div class = "row">
                     
                 </div>
             </div>
