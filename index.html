@@ -25,10 +25,10 @@
         <div class = "row">
             <div class = "col-sm-12" id = "directions">
                 <p class = "directions-text" id = "directions">
-                    A random number will appear at the start of the game. 
+                    A random number to match will appear at the start of the game. 
                     <br>
                     <br>
-                    There are four crystals below. By clicking each crystal, you will add a specific amount of points to your total score.
+                    There are four crystals below. By clicking each crystal, you will add points to your score.
                     <br>
                     <br>
                     You win the game by matching your total score to the random number that appaers at the beginning of the game. If your score goes above the random number, you lose the game. 
@@ -127,7 +127,7 @@ function reset(){
 //make a function that will increase the value of wins and give a winner message and reset game.
 
 function winner() {
-    alert("Congrats! You win")
+    alert("GENIUS GENIUS GENIUS! YOU WIN!!!!!")
     wins++
     $("#wins").text("Wins: " + wins)
     reset()
@@ -137,7 +137,7 @@ function winner() {
 //make a function that will increase value of losses and give a loser message. also need to reset game
 
 function loser() {
-    alert("Awww, You lose :(")
+    alert("LMAO, YOU SUCK, LOSER!")
     losses++
     $("#losses").text("Losses: " + losses)
     reset()
