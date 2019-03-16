@@ -38,7 +38,7 @@ $(document).ready(function() {
     //make a function that will increase the value of wins and give a winner message and reset game.
     
     function winner() {
-        alert("Congrats! You win")
+        alert("Nice! You win")
         wins++
         $("#wins").text("Wins: " + wins)
         reset()
@@ -48,7 +48,7 @@ $(document).ready(function() {
     //make a function that will increase value of losses and give a loser message. also need to reset game
     
     function loser() {
-        alert("Awww, You lose :(")
+        alert("Bummer! You lose :(")
         losses++
         $("#losses").text("Losses: " + losses)
         reset()
