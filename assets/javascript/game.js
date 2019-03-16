@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
 
     var randomNumber = Math.floor(Math.random(randomNumber) * 120) +19;
     var gemValue1 = Math.floor(Math.random(randomNumber) * 12) +1;
@@ -11,6 +11,7 @@ $(document).ready(function() {
     
     //game starts and a random number is generated. 
         // random value is generated for each crystal.
+        
     $("#numberToMatch").text(randomNumber)
     $("#crystal1").text(gemValue1)
     $("#crystal2").text(gemValue2)
@@ -112,4 +113,4 @@ $(document).ready(function() {
         
     })
     
-    });
+  
